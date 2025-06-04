@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { PostContext } from "./PostProvider";
+import { PostContext } from "./Context";
 export default function usePosts() {
   const context = useContext(PostContext);
   if (context === undefined)
